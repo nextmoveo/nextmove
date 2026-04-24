@@ -1368,7 +1368,7 @@ Zusätzliche Anmerkungen: ${data.notes || 'Keine'}`;
 
     // 更新选中高亮框位置
     selectedBox.style.display = "block";
-
+    selectedBox.style.left = "".concat(rect.left - 2, "px");
     selectedBox.style.top = "".concat(rect.top - 2, "px");
     selectedBox.style.width = "".concat(rect.width + 4, "px");
     selectedBox.style.height = "".concat(rect.height + 4, "px");
