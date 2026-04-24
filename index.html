@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXTMOVE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0F0F1A;color:#fff}
+header{background:#1A1A2E;padding:20px;text-align:center}
+.logo{font-size:2rem;font-weight:bold;color:#FF6B00}
+section{padding:40px 20px;max-width:1000px;margin:0 auto}
+h2{text-align:center;margin-bottom:30px;color:#FF6B00}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.service{background:#1A1A2E;padding:20px;border-radius:10px;text-align:center}
+.contact{background:#1A1A2E;text-align:center}
+form{max-width:400px;margin:20px auto;display:flex;flex-direction:column;gap:10px}
+input,textarea{padding:12px;border-radius:5px;border:none}
+button{background:#FF6B00;color:#fff;padding:12px;border:none;border-radius:5px;cursor:pointer}
+footer{text-align:center;padding:20px;color:#666}
+@media(max-width:600px){.services{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">NEXTMOVE</div>
+<p>📞 +49 176 640 08327</p>
+<p>✉️ nextmove77ii@gmail.com</p>
+</header>
+<section>
+<h2>Was wir für Sie tun</h2>
+<div class="services">
+<div class="service"><h3>Möbeltransport</h3><p>Ab €149</p></div>
+<div class="service"><h3>Büroübersiedlung</h3><p>Individuelles Angebot</p></div>
+<div class="service"><h3>Verpackungsservice</h3><p>Professionell</p></div>
+<div class="service"><h3>Montage & Demontage</h3><p>Experten</p></div>
+</div>
+</section>
+<section class="contact">
+<h2>Kontakt</h2>
+<p>📍 Kuhstr. 15, 47906 Kempen</p>
+<p>🛡️ Versichert bis 500.000€</p>
+<form>
+<input type="text" placeholder="Name" required>
+<input type="tel" placeholder="Telefon" required>
+<input type="email" placeholder="E-Mail" required>
+<textarea rows="4" placeholder="Nachricht"></textarea>
+<button type="submit">Senden</button>
+</form>
+</section>
+<footer><p>© 2024 NEXTMOVE</p></footer>
+</body>
+</html>
